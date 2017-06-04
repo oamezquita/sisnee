@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/admin/certificado', 'HomeController@formuCertificado');
+Route::post('/admin/certificado','HomeController@pdfCertificado');
+Route::get('/admin/certificadoFisico', 'HomeController@certificadoHtml');
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
+
+Route::get ('github', 'PdfController@github');

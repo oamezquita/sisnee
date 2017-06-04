@@ -1,0 +1,328 @@
+2016-06-30 09:39:09 ERROR  : Error connecting to the server: FATAL:  could not load pg_hba.conf
+
+2016-06-30 09:39:15 ERROR  : Error connecting to the server: FATAL:  could not load pg_hba.conf
+
+2016-06-30 09:44:12 ERROR  : Error connecting to the server: FATAL:  could not load pg_hba.conf
+
+2016-07-07 11:09:40 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-08 09:31:02 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-12 14:15:06 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-13 13:26:43 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-13 13:26:55 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-15 10:53:52 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-15 10:55:53 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_pkey"
+DETAIL:  Key (id)=(1) already exists.
+2016-07-15 10:55:55 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_pkey"
+DETAIL:  Key (id)=(1) already exists.
+2016-07-15 10:56:47 ERROR  : ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (2, null, null, null, 2016-07-15 10:57:14, 2016-07-15 10:57:14).
+2016-07-15 10:56:50 ERROR  : ERROR:  null value in column "name" violates not-null constraint
+DETAIL:  Failing row contains (2, null, null, null, 2016-07-15 10:57:17, 2016-07-15 10:57:17).
+2016-07-15 10:57:05 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_pkey"
+DETAIL:  Key (id)=(1) already exists.
+2016-07-15 10:57:07 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_pkey"
+DETAIL:  Key (id)=(1) already exists.
+2016-07-15 10:59:46 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_name_unique"
+DETAIL:  Key (name)=(driver) already exists.
+2016-07-15 10:59:47 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_name_unique"
+DETAIL:  Key (name)=(driver) already exists.
+2016-07-15 10:59:54 ERROR  : ERROR:  duplicate key value violates unique constraint "roles_name_unique"
+DETAIL:  Key (name)=(driver) already exists.
+2016-07-15 11:10:05 ERROR  : ERROR:  null value in column "role_id" violates not-null constraint
+DETAIL:  Failing row contains (3, null).
+2016-07-15 11:10:08 ERROR  : ERROR:  null value in column "role_id" violates not-null constraint
+DETAIL:  Failing row contains (3, null).
+2016-07-15 11:12:49 ERROR  : ERROR:  null value in column "role_id" violates not-null constraint
+DETAIL:  Failing row contains (3, null).
+2016-07-15 12:17:07 ERROR  : ERROR:  missing FROM-clause entry for table "role"
+LINE 10: role.name as role, 
+         ^
+2016-07-15 12:17:41 ERROR  : ERROR:  missing FROM-clause entry for table "organizations"
+LINE 11: organizations.id as company_id, 
+         ^
+2016-07-15 12:18:19 ERROR  : ERROR:  syntax error at or near "FROM"
+LINE 13: FROM 
+         ^
+2016-07-15 14:37:00 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-15 14:37:14 ERROR  : ERROR:  syntax error at or near "organizations"
+LINE 11: organizations.id as company_id, 
+         ^
+2016-07-15 14:37:29 ERROR  : ERROR:  column reference "phone" is ambiguous
+LINE 5: phone, 
+        ^
+2016-07-15 14:37:39 ERROR  : ERROR:  column reference "email" is ambiguous
+LINE 7: email, 
+        ^
+2016-07-15 14:37:48 ERROR  : ERROR:  column reference "status" is ambiguous
+LINE 8: status, 
+        ^
+2016-07-15 15:15:11 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-15 15:23:52 ERROR  : ERROR:  null value in column "firstname" violates not-null constraint
+DETAIL:  Failing row contains (8, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, 2016-07-15 15:24:20, 2016-07-15 15:24:20, null, null).
+2016-07-18 09:18:54 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-18 12:15:19 ERROR  : ERROR:  column "amgettuple" does not exist
+LINE 1: ..._am WHERE EXISTS (SELECT 1 FROM pg_proc WHERE oid=amgettuple...
+                                                             ^
+2016-07-18 12:15:35 ERROR  : ERROR:  syntax error at or near "AND"
+LINE 1: SELECT opcname FROM pg_opclass WHERE opcmethod= AND NOT opcd...
+                                                        ^
+2016-07-18 12:21:02 ERROR  : ERROR:  relation "assets_groups_id_seq" does not exist
+2016-07-21 13:23:15 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-07-27 08:34:58 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-22 09:57:25 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-22 12:33:13 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-22 16:07:21 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-23 15:54:33 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-24 16:38:49 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-24 16:39:24 ERROR  : ERROR:  syntax error at or near "as"
+LINE 11:   serial as bigint,
+                  ^
+2016-08-25 09:34:38 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-25 12:57:00 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-25 16:44:15 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-26 09:36:35 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-29 14:07:23 ERROR  : ERROR:  column "timestamp" does not exist
+LINE 1: select max(timestamp),* from avls;
+                   ^
+2016-08-29 14:07:36 ERROR  : ERROR:  column "timestamp" does not exist
+LINE 1: select *,max(timestamp) from avls;
+                     ^
+2016-08-29 14:07:51 ERROR  : ERROR:  column "avls.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: select *,max(avl_time) from avls;
+               ^
+2016-08-29 14:08:03 ERROR  : ERROR:  column "avls.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: select max(avl_time),* from avls;
+                             ^
+2016-08-29 14:09:35 ERROR  : ERROR:  column "avls.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: select max(avl_time),id,resource_id from avls;
+                             ^
+2016-08-29 14:11:10 ERROR  : ERROR:  syntax error at or near "where"
+LINE 1: select * from where avltime=(select max(avl_time) from avls)...
+                      ^
+2016-08-29 14:11:17 ERROR  : ERROR:  syntax error at or near "where"
+LINE 1: select * from where avl_time=(select max(avl_time) from avls...
+                      ^
+2016-08-30 09:40:26 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-30 10:07:25 ERROR  : ERROR:  column "avls_time" does not exist
+LINE 1: SELECT Lat,Lng FROM avls WHERE avls_time=(SELECT MAX(avls_ti...
+                                       ^
+HINT:  Perhaps you meant to reference the column "avls.avl_time".
+2016-08-30 13:08:39 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-31 09:31:52 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-31 11:52:54 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-08-31 12:39:50 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-01 08:51:49 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-01 08:53:18 ERROR  : ERROR:  zero-length delimited identifier at or near """"
+LINE 1: delete from avls where lat=""
+                                   ^
+2016-09-01 08:53:35 ERROR  : ERROR:  invalid input syntax for type double precision: ""
+LINE 1: delete from avls where lat=''
+                                   ^
+2016-09-01 17:32:10 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-07 17:02:30 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-09 11:11:54 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-21 09:51:54 ERROR  : ERROR:  cannot drop table assets_categories because other objects depend on it
+DETAIL:  constraint assets_persons_assets_category_id_foreign on table assets_persons depends on table assets_categories
+constraint assets_resources_assets_category_id_foreign on table assets_resources depends on table assets_categories
+constraint assets_vehicles_assets_category_id_foreign on table assets_vehicles depends on table assets_categories
+HINT:  Use DROP ... CASCADE to drop the dependent objects too.
+2016-09-21 09:52:38 ERROR  : ERROR:  source database "postgres" is being accessed by other users
+DETAIL:  There are 2 other sessions using the database.
+2016-09-23 05:36:45 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-27 16:31:54 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-28 14:47:06 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2016-09-28 15:16:07 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-09-30 15:06:41 ERROR  : ERROR:  syntax error at or near "created_at"
+LINE 1: select extract(epoch from timestamp created_at) from locatio...
+                                            ^
+2016-09-30 15:07:11 ERROR  : ERROR:  syntax error at or near "created_at"
+LINE 1: select extract(epoch from timestamp created_at timestamp(0))...
+                                            ^
+2016-10-04 14:45:48 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-04 14:45:54 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-05 14:23:20 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-06 10:40:27 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-06 10:51:56 ERROR  : ERROR:  subquery in FROM must have an alias
+LINE 1: select * from tiretrack join (select extract(epoch FROM crea...
+                                     ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+2016-10-06 10:52:16 ERROR  : ERROR:  syntax error at or near "where"
+LINE 1: ...h FROM created_at)+18000 from location) as times  where id=6...
+                                                             ^
+2016-10-06 10:52:26 ERROR  : ERROR:  syntax error at end of input
+LINE 2: 
+        ^
+2016-10-06 10:53:07 ERROR  : ERROR:  column "ts" does not exist
+LINE 1: select ts from tiretrack;
+               ^
+HINT:  Perhaps you meant to reference the column "tiretrack.sts".
+2016-10-06 11:29:04 ERROR  : ERROR:  more than one row returned by a subquery used as an expression
+2016-10-06 13:30:40 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-06 13:42:46 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-10-06 15:57:33 ERROR  : ERROR:  syntax error at end of input
+LINE 39: 
+         ^
+2016-10-10 09:15:33 ERROR  : ERROR:  syntax error at or near "by"
+LINE 1: SELECT count(*) from tiretrack gouped by date_part('month',c...
+                                              ^
+2016-10-10 09:16:09 ERROR  : ERROR:  function average(real) does not exist
+LINE 1: SELECT average(pressure) from tiretrack group by date_part('...
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2016-10-10 09:20:14 ERROR  : ERROR:  column "tiretrack.created_at" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT created_at,count(*) from tiretrack group by date_part...
+               ^
+2016-10-10 09:31:27 ERROR  : ERROR:  function disctinct(integer) does not exist
+LINE 1: select disctinct(sts) from tiretrack
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2016-10-10 09:41:07 ERROR  : ERROR:  missing FROM-clause entry for table "tiretrack"
+LINE 1: ... tiretrack where sts=2) as b on date_part('month',tiretrack....
+                                                             ^
+2016-10-10 09:41:39 ERROR  : ERROR:  column a.created_at does not exist
+LINE 1: ... tiretrack where sts=2) as B on date_part('month',A.created_...
+                                                             ^
+2016-10-10 09:43:06 ERROR  : ERROR:  column a.created_at does not exist
+LINE 1: ... tiretrack where sts=2) as B on date_part('month',A.created_...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "b.created_at".
+2016-10-10 09:45:15 ERROR  : ERROR:  syntax error at or near "("
+LINE 1: select avg(A.pressure),avg.(B.pressure) from (select * from ...
+                                   ^
+2016-10-11 14:20:43 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-11-18 10:12:55 ERROR  : Error connecting to the server: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+2016-11-18 14:37:43 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-11-22 13:41:19 ERROR  : server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+2016-12-07 09:47:03 ERROR  : ERROR:  subquery in FROM must have an alias
+LINE 1: SELECT avg(v) FROM (SELECT unnest(experienciausuario) as v F...
+                           ^
+HINT:  For example, FROM (SELECT ...) [AS] foo.
+2016-12-07 09:48:55 ERROR  : ERROR:  column tbl.id does not exist
+LINE 1: ...nciausuario),id as v FROM encuestas) as tbl GROUP BY tbl.id;
+                                                                ^
+2016-12-07 09:49:07 ERROR  : ERROR:  column "id" does not exist
+LINE 1: ...erienciausuario),id as v FROM encuestas) as tbl GROUP BY id;
+                                                                    ^
+2016-12-07 09:52:54 ERROR  : ERROR:  column "tbl.id" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 1: SELECT id,avg(v) FROM (SELECT unnest(experienciausuario) as ...
+               ^
+2016-12-09 12:14:10 ERROR  : ERROR:  column "val" does not exist
+LINE 1: ...ect unnest(result) as val from limpieza where id=1 and val=1
+                                                                  ^
+2016-12-09 12:14:38 ERROR  : ERROR:  column "val" does not exist
+LINE 1: ...ect unnest(result) as val from limpieza where id=1 and val=1
+                                                                  ^
+2016-12-09 12:14:39 ERROR  : ERROR:  column "val" does not exist
+LINE 1: ...ect unnest(result) as val from limpieza where id=1 and val=1
+                                                                  ^
+2016-12-28 17:13:33 ERROR  : ERROR:  date/time field value out of range: "0000-00-00 00:00:00"
+2016-12-28 17:14:07 ERROR  : ERROR:  relation "encuestaero_pkey" already exists
+2016-12-28 17:14:22 ERROR  : ERROR:  relation "encuestaero_pkey" already exists
+2016-12-28 17:22:05 ERROR  : ERROR:  syntax error at or near "`"
+LINE 1: INSERT INTO `airquality` (`DateTime`, `SiteID`, `PM10`, `PM2...
+                    ^
+2016-12-28 17:22:13 ERROR  : ERROR:  syntax error at or near "`"
+LINE 1: INSERT INTO airquality (`DateTime`, `SiteID`, `PM10`, `PM25`...
+                                ^
+2016-12-28 17:25:42 ERROR  : ERROR:  type "datetime" does not exist
+LINE 2:   "DateTime" datetime NOT NULL,
+                     ^
+2016-12-28 17:31:46 ERROR  : ERROR:  syntax error at or near "("
+LINE 7:   "ReadingID" bigint(20) unsigned NOT NULL,
+                            ^
+2016-12-28 17:31:59 ERROR  : ERROR:  syntax error at or near "unsigned"
+LINE 7:   "ReadingID" bigint unsigned NOT NULL,
+                             ^
+2016-12-28 17:39:46 ERROR  : ERROR:  duplicate key value violates unique constraint "noise_pkey"
+DETAIL:  Key ("DateTime")=(2016-12-02 06:32:57) already exists.
+2016-12-28 17:54:48 ERROR  : ERROR:  syntax error at or near "("
+LINE 9:   "mdays" int(4) NOT NULL,
+                     ^
