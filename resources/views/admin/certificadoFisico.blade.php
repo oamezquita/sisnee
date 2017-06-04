@@ -105,7 +105,7 @@
                     <div class="col-xs-3" align="center"></div>
                     <div class="col-xs-6" align="center">
                         <p align=justify>
-                            Hace constar que: {{$data['nombres']}} {{$data['apellidos']}}  identificado(a) con  documento n° {{$data['nDocumento']}} de {{$data['ciudad']}}; Del Colegio {{$data['colegio']}}  en   la ciudad DE BOGOTÁ matriculado(a) en la jornada de la {{$data['journ']}}, grado {{$data['grado']}} cumplió a cabalidad el SERVIVIO SOCIAL {{$data['ano']}} obligatorio de conformidad  con lo establecido en la ley 115 del 8 de Febrero de 1994, la resolución 4210 de 1996, expedida  por el MEN y el acuerdo 55 de 2002 del Consejo de Bogotá, cumpliendo un total de {{$data['horas']}} HORAS en  esta institución  educativa sede {{$data['sede']}}. 
+                            Hace constar que: {{$data['nombres']}} {{$data['apellidos']}}  identificado(a) con  documento n° {{$data['nDocumento']}} de {{$data['ciudad']}}; Del Colegio {{$data['colegio']}}  en   la ciudad DE BOGOTÁ matriculado(a) en la jornada de la {{$data['journ']}}, grado {{$data['grado']}} cumplió a cabalidad el SERVICIO SOCIAL {{$data['ano']}} obligatorio de conformidad  con lo establecido en la ley 115 del 8 de Febrero de 1994, la resolución 4210 de 1996, expedida  por el MEN y el acuerdo 55 de 2002 del Consejo de Bogotá, cumpliendo un total de {{$data['horas']}} HORAS en  esta institución  educativa sede {{$data['sede']}}. 
                         </p>
                         <br>
                         <p align=left>Se expide  a  los  {{$data['dia']}} días del mes de {{$data['mes']}} de {{$data['ano']}}.

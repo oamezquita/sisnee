@@ -43,17 +43,18 @@ class HomeController extends Controller {
         ]);
 
         $res = request()->all();
-        //$pdf = \PDF::loadView('admin/certificadoFisico', ['data' => $res]);
-        /*$pdf = \PDF::loadView('admin.certificadoFisico',['data' => $res]);
-        //$pdf = \PDF::loadFile('http://www.github.com');
-        $pdf->setOption('enable-javascript', true);
-        $pdf->setOption('javascript-delay', 1000);
-        $pdf->setOption('enable-smart-shrinking', true);
-        $pdf->setOption('no-stop-slow-scripts', true);
-        $pdf->setOption('print-media-type',true);
-        $pdf->setOption('footer-center', '"Pagina [page] de [toPage]"');
-        return $pdf->download('Certificado.pdf');
-       */ return view('admin/certificadoFisico', ['data' => $res]);
+        //$pdf = \PDF::loadView('admin.certificadoFisico', ['data' => $res]);
+        /* $pdf = \PDF::loadView('admin.certificadoFisico',['data' => $res]);
+         
+          $pdf->setOption('enable-javascript', true);
+          $pdf->setOption('javascript-delay', 1000);
+          $pdf->setOption('enable-smart-shrinking', true);
+          $pdf->setOption('no-stop-slow-scripts', true);
+          $pdf->setOption('print-media-type',true);
+          $pdf->setOption('footer-center', '"Pagina [page] de [toPage]"');
+          return $pdf->download('Certificado.pdf');
+         */
+         return view('admin/certificadoFisico', ['data' => $res]);
     }
 
     public function certificadoHtml() {
